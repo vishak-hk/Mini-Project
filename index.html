@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<title>Home Page</title>
+<style>
+  
+body, html {
+  background-image: url('images/M.png');
+  height: 100%;
+  margin: 0;
+}
+
+.bgimg {
+  /*background-image: url('M.png');*/
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  color: black;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 25px;
+}
+
+.topleft {
+  position: absolute;
+  top: -3px;
+  left: 200px;
+}
+
+.bottomleft {
+  position: absolute;
+  bottom: 0;
+  left: 18px;
+}
+
+.middle {
+  position: absolute;
+  top: 25%;
+  left: 82%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+h1{
+  font-size: 70px;
+  color: #3d7acf; 
+  /*color: #3f9692;*/
+}
+hr {
+  margin: auto;
+  width: 40%;
+}
+
+.nav {
+  /*background-color: black; 
+  background-image: url('M.png');*/
+  list-style-type: none;
+  text-align: center;
+  margin-left: -200px;
+}
+
+.nav li {
+  display: inline-block;
+  font-size: 20px;
+  padding-right: 20px;
+  margin-left: 40px;
+  padding-top: 40px;
+
+}
+
+.nav a {
+  /*color: #f44c84;*/
+  color: #0b54b8;  
+  
+}
+
+</style>
+<body>
+  
+<div class="bgimg">
+  <div class="topleft">
+    
+    
+<ul class="nav">
+  
+  <li><a href="index.html">Home</a></li>
+  <li><a href="login.php">Login</a></li>
+  <li><a href="register.php">Register</a></li>  
+  <!-- <li><a href="#contact">Contact Us</a></li> -->
+</ul>
+   <!--  <p>Logo</p> -->
+  </div>
+  <div class="middle">
+    <h1>WELCOME TO </br>LEAVE MANAGEMENT SYSTEM</h1> 
+    <hr>
+    <p id="demo" style="font-size:30px"></p>
+  </div>
+  <div class="bottomleft">
+    <p></p>
+  </div>
+</div>
+
+<script>
+/*// Set the date we're counting down to
+var countDownDate = new Date("Jan 5, 2021 15:37:25").getTime();
+
+// Update the count down every 1 second
+var countdownfunction = setInterval(function() {
+
+  // Get todays date and time
+  var now = new Date().getTime();
+  
+  // Find the distance between now an the count down date
+  var distance = countDownDate - now;
+  
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+  
+  // Output the result in an element with id="demo"
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+  
+  // If the count down is over, write some text 
+  if (distance < 0) {
+    clearInterval(countdownfunction);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);*/
+</script>
+
+
+<!-- <h1>Horizontal Navigation Links</h1> -->
+<!-- <p>By default, list items are displayed vertically. In this example we use display: inline-block to display them horizontally (side by side).</p>
+<p>Note: If you resize the browser window, the links will automatically break when it becomes too crowded.</p> -->
+
+<!-- <ul class="nav">
+  <li><a href="#home">Home</a></li>
+  <li><a href="#about">About Us</a></li>
+  <li><a href="#clients">Our Clients</a></li>  
+  <li><a href="#contact">Contact Us</a></li>
+</ul> -->
+
+</body>
+</html>
