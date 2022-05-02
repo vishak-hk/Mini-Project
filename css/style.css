@@ -1,0 +1,86 @@
+*  {
+  box-sizing: border-box;
+}
+
+ body {
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Style the navigation menu */
+nav {
+  -webkit-flex: 0.7;
+  -ms-flex: 0.7;
+  flex: 0.7;
+  background: #ccc;
+  padding: 6px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  
+  padding: 10px;
+}
+.bgimg {
+  background-image: url('e6.jpg');
+  height: 600px;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  color:white;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+}
+
+
+
+
+input[type=text], input[type=password] {
+  width: 60%;
+  padding: 6px 10px;
+  margin: 3px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.topright {
+
+  position: absolute;
+  top: 0;
+  right: 16px;
+  font-size:20px;
+ 
+}
+
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 500px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}

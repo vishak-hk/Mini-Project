@@ -1,0 +1,90 @@
+.container1{
+    padding: 0px;
+    margin: 0px auto 4rem auto ;
+    background-color: whitesmoke;
+    width: 80%;
+    box-shadow:5px 5px 5px 5px rgb(160, 156, 156) ;
+}
+@media screen and (min-width: 0px) and (max-width: 800px) {
+    table{
+        width: 100%;
+    }
+    .container1{
+        margin:  auto ;
+        width: 100%;
+        box-shadow:5px 3px  rgb(160, 156, 156) ;
+    }
+
+}
+input[type=text], input[type=date], input[type=file] {
+    padding: 10px ;
+    border-radius: 25px;
+    width: 80%;
+    margin: 10px auto;
+    background: transparent;
+    border: 1px solid gray;
+    color: black;
+}
+
+select{
+    padding: 10px;
+    border-radius: 25px;
+    width: 80%;
+    margin: 10px auto;
+    background: transparent;
+    border: 1px solid gray;
+    color: black;  
+}
+table{
+    width: 80%;
+    margin: auto;
+}
+#name{
+top: 2%;
+}
+footer,
+.grid{
+    width:100%;
+     background-color:teal;
+}
+	
+.footer img{
+ width: 20px;
+ height: 20px;
+
+}
+.footer nav{
+text-align: center;
+letter-spacing: .5px;
+display:grid;
+grid-template-columns: auto auto auto auto;
+
+}
+.footer a{
+    color: black;
+    text-transform: initial;
+
+}
+.footer{
+	color: white;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+button{
+	background-color: teal;
+	border: black;
+	padding: 10px;
+	display: inline-block;
+	text-align: center;
+	cursor: pointer;
+	text-decoration: none;
+    color: #FFF;
+    width: 80%;
+    margin: auto;
+	min-height: 15px;
+	font: small Arial, Helvetica, sans-serif;
+	text-shadow: 1px 1px 1px black;
+    border-radius: 15px;
+    text-transform: uppercase;
+}
