@@ -11,4 +11,4 @@ There are features like,
   * Detail of leave used
   * Staff deletion
 
-Leave Management is very useful for any type of organiztion to maintain the leave records of their employees. Thus this system maintains the excess amount of job done organization to maintain the leaves.
+Leave Management is very useful for any type of organiztion to maintain the leave records of their employees. Thus this system manages the excess amount of job done by organization to maintain the leaves.
